@@ -1,0 +1,137 @@
+
+/* main flex contain that holds three smaller container */
+#flex-contain {
+          display: flex;
+          flex-direction: row;
+          width: 1200px;
+          height: 900px;
+          border-color: red;
+          background-color:  #666;
+          justify-content: space-around;
+
+}
+/* items are flex box  */
+.itemone h2  {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #CCCFFF;
+          background-color:  #111FFF;
+          width: 300px;
+          height: 300px;
+}
+.itemtwo h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #111FFF;
+  color: #CCCFFF;
+
+  width: 300px;
+  height: 300px;
+}
+.itemthree h2{
+      display: flex;
+      justify-content:  center;
+      align-items: center;
+      background-color:  #111FFF;
+      width: 300px;
+      height: 300px;
+      color: #CCCFFF;
+}
+
+.subtext {
+    justify-content: center;
+    text-align: center;
+    color: #FFFCCC;
+    background-color: #000000;
+    flex-basis:  10
+    height: 300px;
+    width: 200px;
+}
+.title h2 {
+  font-size: 15px;
+  color: seashell;
+  background-color: #111FFF;
+  margin-top: 2px;
+
+}
+/*title for the column at the bottom of the box, lourmn text */
+  .title {
+    font-size: 15px;
+    color: black;
+    background-color: #111FFF;
+    width: 290px;
+    height: auto;
+    padding: 2px;
+
+}
+h2 .sub {
+   font-size: 20px;
+   color: #FFFCCC;
+   background-color: #111FFF;
+   margin-top: 2px;
+   height: 100px;
+   display: inline-flex;
+  }
+
+/* section two has two holder for lastest new */
+#sectiontwo {
+  display: flex;
+  height: auto;
+  width: 1200px;
+  justify-content: center;
+  background-color: #222;
+  magrin-top: 10px;
+  border-top: solid black 3px; // border of black //
+
+
+}
+
+
+
+.lastest {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto
+
+
+}
+
+.lastestcolumn h2{
+  display: flex;
+  background-color:  red;
+  height: auto;
+  width: 300px;
+
+}
+.lastestcolumntwo h2{
+  display: flex;
+  background-color:  blue;
+  height: auto;
+  width: 300px;
+
+}
+.lastestcolumnthree h2{
+  display: flex;
+  background-color:  green;
+  height: auto;
+  width: 300px;
+
+}
+
+
+h3 {
+  justify-content: center;
+  display: flex;
+  color: #cccfff;
+
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+display: block;
+}
+p{color: #ffcccc;}
