@@ -1,4 +1,18 @@
 <!DOCTYPE html>
+
+<!--- Navbar: h2 element .content, scrolls over the navbar
+h2 element in .content needs to be centered inside of the bgmission container
+Make the bgmission container a flex container with display flex and use alignment to center the h2
+- check width of the items on the second row of the ‘tea of the month’ section, they should be closer together
+
+
+- Navbar: h2 element .content, scrolls over the navbar
+h2 element in .content needs to be centered inside of the bgmission container
+Make the bgmission container a flex container with display flex and use alignment to center the h2
+- check width of the items on the second row of the ‘tea of the month’ section, they should be closer together
+
+-->
+
 <html>
   <head>
     <meta charset='UTF-8' />
@@ -6,17 +20,17 @@
     <link href='css/style.css' rel='stylesheet' />
   </head>
   <body>
-    <header class="flex-container">
+    <!-- <header class="flex-container"> --><header>
       <img src="images/img-tea-cozy-logo.png" class="left-logo">
       <nav>
-          <ul><li><a href="#store">Mission </li>
-              <li><a href="#store">Featured Tea</a></li>
-              <li><a href="#location"> Locations</a></li>
-              <li><a href="#0">Our Mission</a></li>
-        </ul>
+              <span><a href="#store">Mission </span>
+              <span><a href="#store">Featured Tea</a></span>
+              <span><a href="#location">Locations</a></span>
+              <span><a href="#0">Our Mission</a></span>
       </nav><!-- nav and header -->
     </header>
 <!-- <div id="flex-container"> -->
+<main>
   <div class="bgmission">
       <div class="content">
         <h2 class="highlight">Our Mission</h2>
@@ -51,11 +65,18 @@
         </div>
       </div>
     </div>
+    <!--
+      <div class="holder"><!-- holder for two div tag -->
+
+      <!--
     <h2>Tea of the Month</h2>
-        <h4>What's Steeping at The Tea Cozy?</h4>
+        <h4>What's Steeping at The Tea </h4>
+      </div>
+-->
+
     <div class="flex-container locations">
       <div class="background-location">
-        <h2 class="titlelocatio">location </h2>
+        <h2 class="titlelocation">locations</h2>
         <div class="locationinfo">
           <h3 class="title">Downtown</h3>
             <p>384 West 4th St</p>
@@ -78,7 +99,7 @@
       </div>
       </div>
     </div><!-- end of lactions tag -->
-
+</main>
 <footer>
     <div class="contact">
       <h2>The Tea Cozy</h2>
