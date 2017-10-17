@@ -1,0 +1,26 @@
+
+/*Media phones */
+
+@media only screen and (max-width: 480px){
+
+ img {
+  display: none;
+}
+
+
+h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+h4 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+
+}
+
+
+
+}
